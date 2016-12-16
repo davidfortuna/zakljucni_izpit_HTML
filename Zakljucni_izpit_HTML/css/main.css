@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("../Pictures/forest.jpg");
+    background-color: #cccccc;
+    background-size: cover;
+    opacity: 1.0;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+}
+
+.Besedilo {
+    width: 100%;
+    max-width: 500px;
+    color: black left: 100%;
+}
+
+html,
+body {
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.svg-wrapper {
+    position: relative;
+    width: 320px;
+    max-width: 100%;
+    height: 60px;
+}
+
+.shape {
+    stroke-dasharray: 0 440 0 800 1000;
+    stroke-dashoffset: -547;
+    stroke-width: 10px;
+    fill: transparent;
+    stroke: ghostwhite;
+    border-bottom: 5px solid green;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mojsvet {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    border: 0;
+}
+
+.mojsvet-text{
+    font-family: 'Fredericka the Great', cursive;
+    font-weight: normal;
+    font-size: 48px;
+    letter-spacing: 3px;
+    color: #fff;
+     text-align: center;
+}
+
+.svg-wrapper:hover .shape {
+    stroke-width: 3px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+}
+
+a:link,
+a:visited {
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+@font-face {
+    font-family: 5th;
+    src: url ("/fonts/5th.ttf")
+}
+
+.dobrodosli {
+    font-family: 'Fredericka the Great', cursive;
+    color: ghostwhite;
+    font-size: 65px;
+    letter-spacing: 5px;
+     width: 100%;
+    height: 70px;
+    top: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.david42na {
+    position: absolute;
+    right: 0%;
+    transform: translateX(-40%);
+    transform: translateY(-20%);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+@media screen and (max-width: 510px){
+    .dobrodosli{
+        font-size: 45px;
+    }
+}
+
